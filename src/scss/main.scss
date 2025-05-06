@@ -1,0 +1,44 @@
+//---------------------------------------------
+//
+//  Table of Contents
+//
+//    1. Basics
+//    2. Page Layout
+//    3. Components
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Basics
+//---------------------------------------------
+
+@import "variables";
+@import "bootstrap";
+@import "fonts";
+@import "style";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+a {
+  font-family: $font-mona; // or $font-inter / $font-mona
+}
+h3{
+  font-family: $font-inter; // or $font-inter / $font-mona
+}
+// If you do not want to load the customized bootstrap version, just use the following line.
+// @import "~bootstrap/scss/bootstrap";
+
+//---------------------------------------------
+// 2. Page Layout
+//---------------------------------------------
+
+//make p tags font family to helvetica neue
+p {
+  font-family: $font-helvetica;
+}
+.development{
+  font-family: $font-mona;
+}
+//---------------------------------------------
+// 3.Components
+//---------------------------------------------
+
+@import "components/slider";
