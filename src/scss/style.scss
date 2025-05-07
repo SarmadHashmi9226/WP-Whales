@@ -617,13 +617,13 @@ padding-bottom: 2rem;
   height: 300px;
 }
  .Vector-mega {
-     width: 23px;
-    height: 23px;
+    width: 25px;
+    height: 25px;
     border: 1px solid #ee4e34;
     border-radius: 93px;
     padding: 7px;
     background-color: #fff;
-    margin: 5px;
+    margin: 3px 3px 3px -1px;
 }
 .image-mega{
   width: 43px;
@@ -639,6 +639,7 @@ padding-bottom: 2rem;
  }
  .services{
   font-family: $font-inter !important;
+  margin-left: 5px;
  }
 /* Why Choose */
   .feature-box {
