@@ -637,9 +637,16 @@ padding-bottom: 2rem;
  .mega-list li{
   font-size: 14px;
  }
+ .mega-list li:hover{
+  color: #ee4e34;
+  cursor: default !important;
+ }
  .services{
   font-family: $font-inter !important;
   margin-left: 5px;
+ }
+ .development{
+  cursor: default !important;
  }
 /* Why Choose */
   .feature-box {
