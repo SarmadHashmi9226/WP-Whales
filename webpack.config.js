@@ -102,7 +102,13 @@ export default {
     // Inject styles and scripts into the HTML
     new HtmlWebpackPlugin({
       template: path.resolve(process.cwd(), "index.html")
-    })
+    }),
+
+    new HtmlWebpackPlugin({
+    template: path.resolve(process.cwd(), "case-study.html"),
+    filename: "case-study.html",
+    chunks: ["main"]
+  }),
   ],
 
   // Configure the "webpack-dev-server" plugin

@@ -1,0 +1,227 @@
+/* Nav Breadcrumb*/
+.breadcrumb {
+  --bs-breadcrumb-divider: ">";
+  
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #7c7c7c;
+}
+ .breadcrumb-item a {
+    color: #222222;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+  }
+  .breadcrumb-item a:hover {
+    text-decoration: none;
+  }
+ .breadcrumb-item.active {
+    color: #ee4c2b;
+  }
+
+  /* Header Cover */
+  .case-cover-container{
+    background-color: #222222;
+    color: #f7f7f7;
+    height: 545px;
+  }
+  .cover-case{
+    font-family: $font-mona;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .cover-text{
+    font-family: $font-inter;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  /* 5 columns Section */
+
+  .client{
+    font-family: $font-inter;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .Athlete{
+    font-family: $font-inter;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .border-end{
+    border-right: 3px solid #e5e5e5;
+  }
+
+  /* Sidebar Section */
+  .overview{
+    font-family: $font-mona;
+    font-size: 18px;
+    color: #ee4c2b;
+    text-decoration: none;
+    margin-left: 5px;
+    padding-left: 12px;
+  }
+  .client-testimonial{
+     font-family: $font-mona;
+    font-size: 16px;
+    text-decoration: none;
+    color: #757575;
+    padding-left: 20px;
+  }
+  .delivered-solution{
+     font-family: $font-mona;
+    font-size: 16px;
+    text-decoration: none;
+    color: #757575;
+    margin-right: 10px;
+    padding-left: 20px;
+
+  }
+  .deliver-icon{
+    color: #757575;
+    margin-top: 5px;
+    margin-left: 150px;
+  }
+  .deliver-icon-1{
+    color: #757575;
+    margin-top: 5px;
+    margin-left: 141px;
+  }
+  .border-left{
+    color: #ee4c2b;
+    border-left: 5px solid #ee4c2b;
+  }
+  .delivered-solution-nav{
+     font-family: $font-mona;
+    font-size: 16px;
+    color: #757575;
+    text-decoration: none;
+    margin-left: 5px;
+    padding-left: 10px;
+  }
+  .nav-collapse{
+    font-family: $font-mona;
+    font-size: 16px;
+    color: #757575;
+    margin-left: 15px;
+    padding-left: 20px;
+    cursor: default;
+  }
+  .text-ee4c2b {
+  color: #ee4c2b !important;
+}
+
+/* Overview Project section */
+
+.overview-project{
+  font-family: $font-mona;
+  font-size: 32px;
+  font-weight: 600;
+  color: #ee4c2b;
+  padding: 0 !important;
+}
+.overview-text{
+  font-family: $font-inter;
+  font-size: 20px;
+  color: #757575;
+}
+.sub-title-overview{
+  font-family: $font-mona;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.quote-overview {
+  font-family: $font-inter;
+  font-size: 20px;
+  color: #222222;
+  line-height: 0.5;
+  margin: 0;
+}
+
+.start-quote {
+    position: absolute;
+    bottom: 200px;
+}
+
+.end-quote {
+    position: absolute;
+    left: 413px;
+    bottom: -1px;
+}
+.black-text{
+  font-family: $font-inter;
+  font-size: 20px;
+  color: #222222;
+}
+.overview-info{
+  font-family: $font-mona;
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+}
+
+.overview-designation{
+  font-family: $font-inter;
+  font-size: 12px;
+  font-weight: 500;
+  color: #474747;
+}
+.overview-company{
+  font-family: $font-inter;
+  font-size: 12px;
+  font-weight:500;
+  color: #474747;
+}
+.end-quote-2{
+  position: absolute;
+  bottom: 15px;
+  left: 134px;
+}
+.overview-img{
+  max-width: 880px;
+}
+.overview-list li{
+  color: #757575;
+}
+
+.subscription-title{
+  font-family: $font-mona;
+  font-size: 20px;
+  font-weight:600;
+}
+.results{
+  margin-top: 100px;
+}
+.result{
+  font-family: $font-mona;
+  font-size: 40px;
+  color: #222222;
+  font-weight: 600;
+}
+.result-text{
+  font-family: $font-inter;
+  font-size: 24px;
+  color: #757575;
+}
+
+.btn-result a{
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 999px;
+  background-color: #ee4e34;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.percentage{
+  font-family: $font-manrope;
+  font-size: 48px;
+  font-weight: 800;
+}
+.percentage-title{
+  font-family: $font-inter;
+  font-size: 18px;
+  font-weight: 500;
+}

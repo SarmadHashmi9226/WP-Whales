@@ -1,6 +1,7 @@
 // Load Styles
 import '../scss/main.scss';
 import '../js/slide.js';
+import '../js/sidebar.js';
 // Load Bootstrap init
 import {initBootstrap} from "./bootstrap.js";
 
