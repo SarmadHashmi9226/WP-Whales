@@ -282,3 +282,62 @@
   margin-left: 165px;
   margin-top: 30px;
 }
+
+/* Success Stories-2 */
+.card-2{
+  max-height: 511px;
+  max-width: 520px;
+}
+.card-body-2{
+  max-width: 520px;
+}
+.card-title{
+  font-family: $font-inter;
+  font-size: 24px;
+  font-weight:600;
+}
+.btn-link-next{
+  text-decoration: none;
+  font-family: $font-mona;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  margin-right: 110px;
+}
+.btn-link-prev{
+  text-decoration: none;
+  font-family: $font-mona;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  margin-left: 30px;
+}
+.bi-arrow-left{
+  color: #ee4e34;
+  font-weight: 600;
+}
+.bi-arrow-right{
+  color: #ee4e34;
+  font-weight: 600;
+}
+.btn-link-next-2{
+  position: absolute;
+  text-decoration: none;
+  font-family: $font-mona;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  right: 415px;
+}
+.btn-link-prev-2{
+  position: absolute;
+  text-decoration: none;
+  font-family: $font-mona;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  left: 340px;
+}
+.case-study-single-btn{
+  margin-top: 50px;
+}
