@@ -1,0 +1,81 @@
+/* Sidebar */
+.client-testimonial-2{
+  font-family: $font-mona;
+    font-size: 18px;
+    text-decoration: none;
+    color: #757575;
+    padding-left: 20px;
+}
+.services-nav{
+  font-family: $font-mona;
+  font-size: 18px;
+  color: #757575;
+  text-decoration: none;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+.fixing-text{
+  color: #ee4c2b;
+}
+
+/* Why we best */
+
+.mvp-subtitle{
+  font-family: $font-mona;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ee4c2b;
+}
+.mvp-content{
+  font-family: $font-inter;
+  font-size: 18px;
+  color: #000000;
+}
+.mvp-subtitle-2{
+  font-family: $font-mona;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+}
+.card-mvp{
+  width: 600px;
+  max-height: 300px;
+  background-color: #f7f7f7;
+  padding: 14px 14px 14px 5px;
+  border-radius: 10px;
+}
+.black{
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  padding: 32px 32px 32px 32px;
+  border: #222222 1px solid;
+  border-radius: 20px;
+  max-height: 560px;
+  color: #ffffff;
+}
+.black-content{
+  font-family: $font-mona;
+  font-size: 32px;
+  font-weight:600;
+  color: #ffffff;
+  padding: 20px 50px 20px 50px;
+}
+.process-title{
+  font-family: $font-mona;
+  font-size: 24px;
+  font-weight:700;
+}
+.process-content{
+  font-family: $font-inter;
+  font-size: 18px;
+  color: #757575;
+}
+.feature-item {
+  margin-bottom: 2rem;
+}
+.process-line{
+  font-family: $font-inter;
+  font-size: 18px;
+  color: #222222;
+}

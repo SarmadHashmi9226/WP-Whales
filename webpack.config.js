@@ -109,6 +109,12 @@ export default {
     filename: "case-study.html",
     chunks: ["main"]
   }),
+  
+  new HtmlWebpackPlugin({
+    template: path.resolve(process.cwd(), "services.html"),
+    filename: "services.html",
+    chunks: ["main"]
+  }),
   ],
 
   // Configure the "webpack-dev-server" plugin
