@@ -64,7 +64,7 @@
 .process-title{
   font-family: $font-mona;
   font-size: 24px;
-  font-weight:700;
+  font-weight:600;
 }
 .process-content{
   font-family: $font-inter;
@@ -78,4 +78,129 @@
   font-family: $font-inter;
   font-size: 18px;
   color: #222222;
+}
+.discuss-text{
+  font-family: $font-mona;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px 50px 20px 20px;
+}
+.bg-img{
+  position: absolute;
+  width: 31%;
+  height: 31%;
+  right: 80px;
+  top: 229rem;
+}
+.bg-img-2{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  right: -1px;
+  top: 142rem;
+}
+.black-content-2{
+  font-family: $font-mona;
+  font-size: 20px;
+  font-weight:500;
+  color: #ffffff;
+  padding: 20px 50px 20px 50px;
+}
+.discuss-link a{
+  text-decoration: none;
+  font-family: $font-inter;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* Choose us */
+.choice{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.card-choice{
+  padding-left: 0 !important;
+}
+.card-choose{
+  background-color: #f7f7f7;
+  border: 1px solid #dddddd;
+  padding: 48px;
+}
+.discuss-container-overview{
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  padding: 32px 32px 32px 32px;
+  border: #222222 1px solid;
+  border-radius: 20px;
+  max-height: 700px;
+  color: #ffffff;
+}
+
+/* cover 2 columns */
+.solutions-title{
+  font-family: $font-mona;
+  font-size: 32px;
+  font-weight:600;
+}
+.solution-text{
+  font-family: $font-inter;
+  font-size: 16px;
+}
+.solution-btn{
+  margin-left:0 !important ;
+  padding-left: 0 !important;
+}
+.cover-img{
+  background-color: #222222;
+  color: #ffffff;
+}
+.solution-subtitle{
+  font-family: $font-inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+.services-row{
+  margin-left: 0 !important;
+}
+.solution-list li{
+  font-family: $font-inter;
+  font-size: 20px;
+}
+.solution{
+  margin-left: 0 !important;
+}
+
+/* Guarented results */
+.red-line-horizontal-2{
+  margin-top: 120px;
+  width: 100%;
+}
+
+/* Tech Stack */
+
+.programming-card{
+  background-color: #f0f0f0;
+  max-width: 160px;
+  height: 140px;
+  border: 1px solid #dddddd;
+  padding-top: 35px !important;
+}
+
+.programming-subtitle{
+  font-family: $font-inter;
+  font-size: 18px;
+}
+
+/* Last Section */
+
+.ready-title{
+  font-family: $font-mona;
+  font-size: 48px;
+  font-weight: 800;
+}
+.ready-content{
+  font-family: $font-inter;
+  font-size: 20px;
+  color:#000000;
 }
