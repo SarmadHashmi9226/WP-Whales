@@ -25,7 +25,6 @@ input[type="checkbox"]:checked{
   box-shadow: none;
 }
 .sec{
-  padding: 1.5rem 1.5rem;
   margin: 0 auto;
   max-width: 100%;
   box-sizing: border-box;
@@ -51,7 +50,12 @@ input[type="checkbox"]:checked{
 .nav-button .hover-icon {
   display: none;
 }
-
+.row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
 .nav-button:hover .default-icon {
   display: none;
@@ -83,6 +87,56 @@ p {
 .btn-secondary {
   padding-top: 1.5rem;
 }
+/*media queries*/
+/* Extra large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .sec {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+
+/* Large devices (desktops, 992px to 1199px) */
+@media (max-width: 1199.98px) {
+  .sec {
+    padding: 50px;
+    font-size: 17px;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991px) */
+@media (max-width: 991.98px) {
+  .sec {
+    padding: 40px;
+    font-size: 16px;
+    flex-direction: column;
+  }
+}
+
+/* Small devices (landscape phones, 576px to 767px) */
+@media (max-width: 767.98px) {
+  .sec {
+    padding: 30px;
+    font-size: 15px;
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .sec {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  h1, h2, h3 {
+    font-size: 90%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
 
 /* Button */
 .btn a {
@@ -97,6 +151,7 @@ p {
 }
 .btn {
   border-color: transparent !important;
+  padding-left: 0 !important;
 }
 .btn1{
   background-color: transparent;
@@ -105,19 +160,12 @@ p {
 .btn-case-study {
    background-color: #fff !important;
   border: none !important;
-  margin-left: calc(1.5 * var(--bs-gutter-x));
-
 }
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.navbar-brand img {
-  padding-left: 1.5rem;
-}
-
 .nav-left {
   display: flex;
   gap: 1.813rem;
@@ -164,6 +212,8 @@ p {
   display: flex;
   justify-content: right;
   align-items: right;
+  position: absolute;
+  right: 90px;
 }
 .btn-blogs{
     width: 2rem;
@@ -184,9 +234,7 @@ p {
 /* Main Header */
 .main-header {
   background-color: #222222;
-  margin: 15px  60px 15px !important;
   padding: 48px 48px 48px 48px;
-  max-width: 1400px;
   max-height: 400px;
   border-radius: 1rem;
   background-image: url("Image Assets/Isolation_Mode.png");
@@ -226,13 +274,87 @@ p {
 .clients-logo-single {
   width: 10%;
 }
+/* Media Queries for Responsiveness */
 
+@media (max-width: 1200px) {
+  .main-header-title {
+    font-size: 2rem;
+  }
+
+  .clients-logo {
+    justify-content: center;
+  }
+
+  .clients-logo-single {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-header-title {
+    font-size: 1.8rem;
+  }
+
+  .clients-logo-single {
+    max-width: 90px;
+  }
+
+  .clients-logo {
+    justify-content: center;
+  }
+
+  .btn-main-header {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header-title {
+    font-size: 1.5rem;
+  }
+
+  .clients-logo {
+    justify-content: center;
+  }
+
+  .btn-main-header {
+    margin-top: 10px;
+  }
+
+  .clients-logo-single {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-header-title {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .btn-main-header {
+    margin-top: 10px;
+  }
+
+  .clients-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clients-logo-single {
+    max-width: 70px;
+    margin-bottom: 10px;
+  }
+}
 /* Services */
 
 .service-icon {
   width: 35%;
   margin-top: 0.5rem;
   padding-bottom: 2rem;
+}
+.slick-services .card {
+  margin: 0 10px; /* Adjust 10px to whatever gap you want */
 }
 
 .service-icon-integration {
@@ -248,9 +370,8 @@ p {
   overflow-x: auto;
   padding-bottom: 1rem;
   background-color: #F7F7F7;
-  margin: 12px;
   height: 372px;
-  max-width:405px;
+  max-width:420px;
   overflow-y: hidden;
 }
 
@@ -303,6 +424,10 @@ p {
   display: flex;
   gap: 1.5rem;
 }
+.case-studies-slider .slick-slide {
+  padding: 0 10px; /* Adjust gap as needed */
+  box-sizing: border-box;
+}
 
 .case-img {
   max-width: 520px;
@@ -340,7 +465,6 @@ p {
 
 .problem-statement {
   display: flex;
-  gap: 0.5rem;
   align-items: center;
   margin-top: 1rem;
   padding: 1rem 0.5rem 1rem 0.5rem;
@@ -350,7 +474,6 @@ p {
 
 .solution-statement {
   display: flex;
-  gap: 0.5rem;
   align-items: center;
   margin-top: 1rem;
   padding: 1rem 0.5rem 1rem 0.5rem;
@@ -364,7 +487,6 @@ p {
 
 .btn-problem-solution {
   padding-top: 2.875rem;
-  margin-left: calc(1.5 * var(--bs-gutter-x));
 }
 
 /* Engagement Model */
@@ -375,7 +497,9 @@ p {
   background-color: #222222;
   color: #f7f7f7;
 }
-
+.enagage-title{
+  padding-left: 0 !important;
+}
 .engagement-model-container-inner {
   display: flex;
   flex-direction: column;
@@ -451,9 +575,7 @@ p {
   transform: translateX(-2.5rem);
 }
 
-.btn-engagement-model {
-  margin-left: 60px;
-}
+
 .btn-engagement{
   margin-top: 5.5rem !important;
 }
@@ -543,19 +665,21 @@ padding-bottom: 2rem;
   height: auto;
 }
 
+
+
 .hover-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 520px;
-  height: 300px;
-  color: #fff;
-  background-color: rgba(114, 109, 109, 0.5); /* Light-dark overlay */
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 16px;
-  cursor: pointer;
-  padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 9px;
+    width: 407px;
+    height: 300px;
+    color: #fff;
+    background-color: rgba(114, 109, 109, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 25px;
 }
 .hover-overlay .hover-text p{
   padding-top: 100px;
@@ -652,6 +776,12 @@ padding-bottom: 2rem;
   .feature-box {
       padding: 2rem;
     }
+.choose-title{
+  margin-left: 3px !important;
+}
+.choose-us{
+  padding-left: 0 !important;
+}
 
     .icon-img {
       width: 40px;
@@ -699,9 +829,9 @@ padding-bottom: 2rem;
     font-family: $font-mona;
     font-size: 32px ;
     font-weight: 800 ;
-    margin: 0 !important;
     padding: 0 !important;
   }
+ 
   .buzz-sub-title{
     font-family: $font-inter ;
     font-size: 20px;
@@ -782,8 +912,12 @@ padding-bottom: 2rem;
       font-family: $font-mona;
       font-size: 32px;
       font-weight: 600;
+      
     }
-  
+  .project-info{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
     /* Projects section */
 
 .card-body-project {
@@ -945,7 +1079,11 @@ padding-bottom: 2rem;
   font-size: 24px;
   font-weight: 600;
 }
-
+.blogs-slider .card{
+  border-color: #ffffff;
+  background-color: #ffffff;
+  margin: 0 5px;
+}
 
 /* Footer */
 .footer-sec{
